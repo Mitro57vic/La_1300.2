@@ -1,4 +1,4 @@
-### 1.3 Testfälle
+### Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
