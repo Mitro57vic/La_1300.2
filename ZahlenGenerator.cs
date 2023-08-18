@@ -7,17 +7,19 @@ namespace LA_1300
     {
         static void Main(string[] args)
         {
-            
-                Random random = new Random();//Code von stackoverflow
-                int Highscore = int.MaxValue;  // Initialisierung mit maximal möglichem Wert
-            
-                bool playAgain = true;
+
+            RandomNumber number = new RandomNumber();
+
+            int Highscore = int.MaxValue;
+
+
+            bool playAgain = true;
 
             Console.WriteLine("Willkommen beim Zahlenraten-Spiel!");
 
             while (playAgain)
             {
-                int secretNumber = random.Next(1, 101);
+                int NumberRandom = number.GeneriereRandomNummer();
                 int numberOfAttempts = 0;
 
                 while (true)
@@ -34,17 +36,17 @@ namespace LA_1300
 
                     numberOfAttempts++;
 
-                    if (guessedNumber < secretNumber)
+                    if (guessedNumber < NumberRandom)
                     {
                         Console.WriteLine("Die geratene Zahl ist niedriger als die Geheimzahl.");
                     }
-                    else if (guessedNumber > secretNumber)
+                    else if (guessedNumber > NumberRandom)
                     {
                         Console.WriteLine("Die geratene Zahl ist größer als die Geheimzahl.");
                     }
                     else
                     {
-                        Console.WriteLine($"Glückwunsch! Du hast die Geheimzahl {secretNumber} erraten.");
+                        Console.WriteLine($"Glückwunsch! Du hast die Geheimzahl {NumberRandom} erraten.");
                         Console.WriteLine($"Anzahl der Versuche: {numberOfAttempts}");
 
                         if (numberOfAttempts < Highscore)
@@ -77,6 +79,8 @@ namespace LA_1300
             {
                 Console.WriteLine("Fehler beim Abspielen des Sounds: " + ex.Message);
             }
+            
+
         }
     }
 }
