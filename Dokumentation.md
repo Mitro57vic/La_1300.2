@@ -2,13 +2,13 @@
 
 |Datum|	Arbeitspaket|	Verantwortliche Person||
 | ---- | ------------ | ------- | ----------------- |
-|23.08.2023|	Speichern zufallszahl 1-100 als geheimzahl|	Filip Mitrovic|
-|23.08.2023	|Benutzer kann Zahlen raten|	Filip Mitrovic|
-|23.08.2023|	Ausgabe von Hinweisen wenn Zahl falsch geraten wurde|	Filip Mitrovic|
-|23.08.2023|	Ausgabe von Rateversuche|	Filip Mitrovic|
-|23.08.2023|	Programm soll fehleingaben abfangen|	Filip Mitrovic|
-|23.08.2023|	Highscore wird angezeigt|	Filip Mitrovic|
-|23.08.2023|	Soundeffekte bei Flascheingaben|	Filip Mitrovic|
+|18.08.2023|	Speichern zufallszahl 1-100 als geheimzahl|	Filip Mitrovic|
+|18.08.2023|Benutzer kann Zahlen raten|	Filip Mitrovic|
+|18.08.2023|	Ausgabe von Hinweisen wenn Zahl falsch geraten wurde|	Filip Mitrovic|
+|18.08.2023|	Ausgabe von Rateversuche|	Filip Mitrovic|
+|18.08.2023|	Programm soll fehleingaben abfangen|	Filip Mitrovic|
+|18.08.2023|	Highscore wird angezeigt|	Filip Mitrovic|
+|18.08.2023|	Soundeffekte bei Flascheingaben|	Filip Mitrovic|
 
 
 
@@ -27,4 +27,16 @@
 |       5.1     |    Programm Läuft    |    User gibt "Ja" ein bei der Frage ob er nochmal eine Runde spielen möchte           |   neue zuffällige Zahl wird generiert und abgefragt |
 |       5.2     |     Programm Läuft   |  User gibt "Nein" ein bei der Frage ob er noch einmal spielen möchte             |     Programm wird beendet                            |
 
-			
+### 5.1 Testprotokoll
+
+| TC-№ | Datum | Resultat | Tester |
+| ---- | ----- | -------- | ------ |
+| 1.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 2.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 1.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 3.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 3.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 4.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 4.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 5.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| 5.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
