@@ -1,7 +1,5 @@
 Testfälle
 
-Testfälle
-
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 |      1.1      |   Programm wird geöffnet   |keine|Es soll eine zufällige Zahl generieren und speichern.        |
 |     2.1       |     Programm läuft|Geratene Zahl vom User    |  Das Programm soll ausgeben ob es richtig oder falsch ist.                               |
