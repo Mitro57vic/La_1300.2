@@ -1,6 +1,6 @@
 ### Arbeitspakete
 
-|Datum|	Arbeitspaket|	Verantwortliche Person|
+|Datum|	Arbeitspaket|	Verantwortliche Person||
 | ---- | ------------ | ------- | ----------------- |
 |23.08.2023|	Speichern zufallszahl 1-100 als geheimzahl|	Filip Mitrovic|
 |23.08.2023	|Benutzer kann Zahlen raten|	Filip Mitrovic|
