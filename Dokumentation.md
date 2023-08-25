@@ -1,6 +1,6 @@
 ### Mein Projekt
 
-In diesem Projekt realisiere ich Objektorientiert ein Random Zahlen Generator Spiel.
+In diesem Projekt entwickle ich ein Spiel mit objektorientiertem Ansatz, bei dem die Herausforderung darin besteht, eine zufällig generierte Zahl durch möglichst wenige Vermutungen korrekt zu erraten.
 
 
 ### Arbeitspakete
