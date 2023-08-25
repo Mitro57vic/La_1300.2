@@ -1,20 +1,20 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LA_1300
+namespace RandomGenerator
 {
-    internal class RandomNumber
+    public class Generate
     {
-        public int number { get; set; } = 0;
-        Random rnd = new Random();
+        private Random _random;
 
-        public int GeneriereRandomNummer() {
+        public Generate()
+        {
+            _random = new Random();
+        }
 
-            number = rnd.Next(1, 101);
-            return number;
+        public int GeneriereRandomNummer()
+        {
+            return _random.Next(1, 101); // Generiert eine Zufallszahl zwischen 1 und 100 (einschließlich).
         }
     }
 }
+
