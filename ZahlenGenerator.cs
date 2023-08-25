@@ -1,25 +1,28 @@
 using System;
 using System.Media;
 
-namespace LA_1300
+namespace RandomGenerator
 {
-    internal class Program
+    public class SpielManager
     {
-        static void Main(string[] args)
+        private Generate _numberGenerator;
+        private int _highscore;
+
+        public SpielManager()
         {
+            _numberGenerator = new Generate();
+            _highscore = int.MaxValue;
+        }
 
-            RandomNumber number = new RandomNumber();
-
-            int Highscore = int.MaxValue;
-
-
+        public void StarteSpiel()
+        {
             bool playAgain = true;
 
             Console.WriteLine("Willkommen beim Zahlenraten-Spiel!");
 
             while (playAgain)
             {
-                int NumberRandom = number.GeneriereRandomNummer();
+                int NumberRandom = _numberGenerator.GeneriereRandomNummer();
                 int numberOfAttempts = 0;
 
                 while (true)
@@ -49,10 +52,10 @@ namespace LA_1300
                         Console.WriteLine($"Glückwunsch! Du hast die Geheimzahl {NumberRandom} erraten.");
                         Console.WriteLine($"Anzahl der Versuche: {numberOfAttempts}");
 
-                        if (numberOfAttempts < Highscore)
+                        if (numberOfAttempts < _highscore)
                         {
-                            Highscore = numberOfAttempts;
-                            Console.WriteLine("Neuer Highscore: " + Highscore);
+                            _highscore = numberOfAttempts;
+                            Console.WriteLine("Neuer Highscore: " + _highscore);
                         }
 
                         break;
@@ -65,8 +68,7 @@ namespace LA_1300
             }
         }
 
-        static void PlayErrorSound()//Sound von: https://www.soundjay.com/failure-sound-effect.html#google_vignette
-                                    //Code von ChatGPT
+        private void PlayErrorSound()
         {
             string soundPath = @"C:\Users\filip\OneDrive\Desktop\LA-1300\fail-trombone-03.wav";
 
@@ -79,8 +81,6 @@ namespace LA_1300
             {
                 Console.WriteLine("Fehler beim Abspielen des Sounds: " + ex.Message);
             }
-            
-
         }
     }
 }
