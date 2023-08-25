@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+        using System;
+
+namespace RandomGenerator
+    {
+        public class Program
+        {
+            static void Main(string[] args)
+            {
+                SpielManager spielManager = new SpielManager();
+                spielManager.StarteSpiel();
+            }
+        }
+    }
+
+
