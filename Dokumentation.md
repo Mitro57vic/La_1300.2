@@ -2,6 +2,18 @@
 
 In diesem Projekt entwickle ich ein Spiel mit objektorientiertem Ansatz, bei dem die Herausforderung darin besteht, eine zufällig generierte Zahl durch möglichst wenige Vermutungen korrekt zu erraten.
 
+### Anforderungen
+1.	Der Computer speichert eine Zufallszahl zwischen und mit 1 bis 100 als Geheimzahl.
+2.	Der Benutzer kann Zahlen raten.
+3.	Für jede der geratenen Zahlen gibt der Computer einen Hinweis aus:
+  a.	Die geratene Zahl ist niedriger als die Geheimzahl.
+  b.	Die geratene Zahl ist grösser als die Geheimzahl.
+  c.	Die Geheimzahl wurde erraten.
+4.	Wenn die Geheimzahl erraten wurde, soll die Anzahl der Rateversuche ausgegeben werden.
+5.	Das Programm soll mit Fehleingaben umgehen oder sie vermeiden können.
+6.	Das Programm soll am Ende des Spieles den aktuellen Highscore ausgeben.
+7.	Das Programm soll einen Error Sound abspielen, wenn der User eine Fehleingabe macht.
+
 
 ### Arbeitspakete
 
@@ -34,14 +46,14 @@ In diesem Projekt entwickle ich ein Spiel mit objektorientiertem Ansatz, bei dem
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 2.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 1.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 3.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 3.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 4.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 4.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 5.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
-| 5.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |
+| TC-№ | Datum | Resultat | Tester |Testumgebung|
+| ---- | ----- | -------- | ------ | ------ |
+| 1.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 2.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 1.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 3.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 3.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 4.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 4.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 5.1  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
+| 5.2  |    18.08.2023   |     Funktioniert     |  Filip Mitrovic      |Windows 11|
