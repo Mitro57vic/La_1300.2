@@ -48,7 +48,7 @@ In diesem Projekt entwickle ich ein Spiel mit objektorientiertem Ansatz, bei dem
 |       5.1     |    Programm Läuft    |    User gibt "Ja" ein bei der Frage ob er nochmal eine Runde spielen möchte           |   neue zuffällige Zahl wird generiert und abgefragt |
 |       5.2     |     Programm Läuft   |  User gibt "Nein" ein bei der Frage ob er noch einmal spielen möchte             |     Programm wird beendet                            |
 
-### 5.1 Testprotokoll
+### Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |Testumgebung|
 | ---- | ----- | -------- | ------ | ------ |
