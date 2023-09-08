@@ -6,13 +6,17 @@ In diesem Projekt entwickle ich ein Spiel mit objektorientiertem Ansatz, bei dem
 1.	Der Computer speichert eine Zufallszahl zwischen und mit 1 bis 100 als Geheimzahl.
 2.	Der Benutzer kann Zahlen raten.
 3.	Für jede der geratenen Zahlen gibt der Computer einen Hinweis aus:
-  a.	Die geratene Zahl ist niedriger als die Geheimzahl.
-  b.	Die geratene Zahl ist grösser als die Geheimzahl.
-  c.	Die Geheimzahl wurde erraten.
-4.	Wenn die Geheimzahl erraten wurde, soll die Anzahl der Rateversuche ausgegeben werden.
-5.	Das Programm soll mit Fehleingaben umgehen oder sie vermeiden können.
-6.	Das Programm soll am Ende des Spieles den aktuellen Highscore ausgeben.
-7.	Das Programm soll einen Error Sound abspielen, wenn der User eine Fehleingabe macht.
+   
+    a.	Die geratene Zahl ist niedriger als die Geheimzahl.
+  	
+    b.	Die geratene Zahl ist grösser als die Geheimzahl.
+  	
+    c.	Die Geheimzahl wurde erraten.
+  	
+5.	Wenn die Geheimzahl erraten wurde, soll die Anzahl der Rateversuche ausgegeben werden.
+6.	Das Programm soll mit Fehleingaben umgehen oder sie vermeiden können.
+7.	Das Programm soll am Ende des Spieles den aktuellen Highscore ausgeben.
+8.	Das Programm soll einen Error Sound abspielen, wenn der User eine Fehleingabe macht.
 
 
 ### Arbeitspakete
